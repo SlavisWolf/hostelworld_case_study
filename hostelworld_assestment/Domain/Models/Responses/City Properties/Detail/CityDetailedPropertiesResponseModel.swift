@@ -66,7 +66,9 @@ struct CheckInModel: Decodable {
         case startsAt
         case endsAt
     }
-    
+}
+
+extension CheckInModel {
     // I know, this is ugly as fuck, I've done this just to be able to parse the data because the server sometimes sends an Int an other times it sends a String, this is a server error, this behaviour is not proper and leads to errors.
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)

@@ -4,7 +4,5 @@ import Foundation
 
 extension String {
     
-    func isNotEmpty() -> Bool {
-        return !self.isEmpty
-    }
+    var isNotEmpty: Bool { return !self.isEmpty }
 }

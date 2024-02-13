@@ -14,7 +14,7 @@ struct HomeView: View {
         
         NavigationStack(path: $router.navPath) {
             VStack {
-                if viewModel.errorMsg.isNotEmpty() {
+                if viewModel.errorMsg.isNotEmpty {
                     ErrorView(message: viewModel.errorMsg)
                 } else {
                     propertyList()

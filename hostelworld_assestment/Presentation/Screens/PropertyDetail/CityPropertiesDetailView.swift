@@ -16,7 +16,7 @@ struct CityPropertiesDetailView: View {
         VStack {
             if let data = viewModel.viewData {
                 content(data)
-            } else if viewModel.errorMsg.isNotEmpty() {
+            } else if viewModel.errorMsg.isNotEmpty {
                 ErrorView(message: viewModel.errorMsg)
             } else {
                 NetworkLoadingView()
@@ -93,7 +93,7 @@ struct CityPropertiesDetailView: View {
             Spacer()
             VStack(alignment: .center) {
                 dataSectionCard(title: "Address:", value: data.address1)
-                if data.address2.isNotEmpty() {
+                if data.address2.isNotEmpty {
                     dataSectionCard(title: "Second address:", value: data.address2)
                 }
                 dataSectionCard(title: "Country:", value: data.country)

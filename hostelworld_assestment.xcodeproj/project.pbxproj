@@ -58,9 +58,17 @@
 		A95EF7A92B77E7D900A61B19 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7A82B77E7D900A61B19 /* HomeView.swift */; };
 		A95EF7AB2B77E7DA00A61B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF7AA2B77E7DA00A61B19 /* Assets.xcassets */; };
 		A95EF7AE2B77E7DA00A61B19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF7AD2B77E7DA00A61B19 /* Preview Assets.xcassets */; };
-		A95EF7B82B77E7DB00A61B19 /* hostelworld_assestmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7B72B77E7DB00A61B19 /* hostelworld_assestmentTests.swift */; };
 		A95EF7C22B77E7DB00A61B19 /* hostelworld_assestmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7C12B77E7DB00A61B19 /* hostelworld_assestmentUITests.swift */; };
 		A95EF7C42B77E7DB00A61B19 /* hostelworld_assestmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7C32B77E7DB00A61B19 /* hostelworld_assestmentUITestsLaunchTests.swift */; };
+		A96ABAB12B7BFE9B00800AD2 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96ABAB02B7BFE9B00800AD2 /* HomeViewModelTests.swift */; };
+		A96ABAB42B7BFF3600800AD2 /* ShowPropertiesOverviewListSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96ABAB32B7BFF3600800AD2 /* ShowPropertiesOverviewListSpy.swift */; };
+		A96ABABA2B7C0C7800800AD2 /* XCTestCase+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96ABAB92B7C0C7800800AD2 /* XCTestCase+Additions.swift */; };
+		A96ABABC2B7C101000800AD2 /* ShowPropertiesOverviewListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96ABABB2B7C101000800AD2 /* ShowPropertiesOverviewListTests.swift */; };
+		A96ABABE2B7C104900800AD2 /* NetworkManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96ABABD2B7C104900800AD2 /* NetworkManagerSpy.swift */; };
+		A96ABAC12B7C205200800AD2 /* cityProperties.json in Resources */ = {isa = PBXBuildFile; fileRef = A96ABAC02B7C205200800AD2 /* cityProperties.json */; };
+		A96ABAC32B7C20AC00800AD2 /* cityDetailedProperties.json in Resources */ = {isa = PBXBuildFile; fileRef = A96ABAC22B7C20AC00800AD2 /* cityDetailedProperties.json */; };
+		A96ABAC52B7C288300800AD2 /* CityPropertiesDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96ABAC42B7C288300800AD2 /* CityPropertiesDetailViewModelTests.swift */; };
+		A96ABAC82B7C29B100800AD2 /* ShowCityDetailedPropertiesSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96ABAC72B7C29B100800AD2 /* ShowCityDetailedPropertiesSpy.swift */; };
 		A9B125622B78D806003F82CE /* Ranges+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125612B78D806003F82CE /* Ranges+Additions.swift */; };
 		A9B125652B78E3DB003F82CE /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125642B78E3DB003F82CE /* LogManager.swift */; };
 		A9B1256E2B78E97E003F82CE /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B1256D2B78E97E003F82CE /* CityModel.swift */; };
@@ -68,6 +76,7 @@
 		A9B125722B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125712B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift */; };
 		A9BF04A22B7BA58F001D78D4 /* EnlargedUrlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BF04A12B7BA58F001D78D4 /* EnlargedUrlImage.swift */; };
 		A9BF04A32B7BA58F001D78D4 /* EnlargedUrlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BF04A12B7BA58F001D78D4 /* EnlargedUrlImage.swift */; };
+		A9BF04A52B7BF867001D78D4 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BF04A42B7BF867001D78D4 /* ExtensionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +93,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = A95EF7A22B77E7D900A61B19;
 			remoteInfo = hostelworld_assestment;
+		};
+		A9BF04A62B7BF9CA001D78D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95EF79B2B77E7D900A61B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91311C22B792FD300400F27;
+			remoteInfo = hostelworld_assestment_pre;
+		};
+		A9BF04A82B7BF9D2001D78D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95EF79B2B77E7D900A61B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91311C22B792FD300400F27;
+			remoteInfo = hostelworld_assestment_pre;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -115,10 +138,18 @@
 		A95EF7AA2B77E7DA00A61B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A95EF7AD2B77E7DA00A61B19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A95EF7B32B77E7DB00A61B19 /* hostelworld_assestmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hostelworld_assestmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A95EF7B72B77E7DB00A61B19 /* hostelworld_assestmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hostelworld_assestmentTests.swift; sourceTree = "<group>"; };
 		A95EF7BD2B77E7DB00A61B19 /* hostelworld_assestmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hostelworld_assestmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95EF7C12B77E7DB00A61B19 /* hostelworld_assestmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hostelworld_assestmentUITests.swift; sourceTree = "<group>"; };
 		A95EF7C32B77E7DB00A61B19 /* hostelworld_assestmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hostelworld_assestmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A96ABAB02B7BFE9B00800AD2 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		A96ABAB32B7BFF3600800AD2 /* ShowPropertiesOverviewListSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPropertiesOverviewListSpy.swift; sourceTree = "<group>"; };
+		A96ABAB92B7C0C7800800AD2 /* XCTestCase+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Additions.swift"; sourceTree = "<group>"; };
+		A96ABABB2B7C101000800AD2 /* ShowPropertiesOverviewListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPropertiesOverviewListTests.swift; sourceTree = "<group>"; };
+		A96ABABD2B7C104900800AD2 /* NetworkManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerSpy.swift; sourceTree = "<group>"; };
+		A96ABAC02B7C205200800AD2 /* cityProperties.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityProperties.json; sourceTree = "<group>"; };
+		A96ABAC22B7C20AC00800AD2 /* cityDetailedProperties.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityDetailedProperties.json; sourceTree = "<group>"; };
+		A96ABAC42B7C288300800AD2 /* CityPropertiesDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPropertiesDetailViewModelTests.swift; sourceTree = "<group>"; };
+		A96ABAC72B7C29B100800AD2 /* ShowCityDetailedPropertiesSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCityDetailedPropertiesSpy.swift; sourceTree = "<group>"; };
 		A9B125612B78D806003F82CE /* Ranges+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ranges+Additions.swift"; sourceTree = "<group>"; };
 		A9B125642B78E3DB003F82CE /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 		A9B1256D2B78E97E003F82CE /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
@@ -126,6 +157,7 @@
 		A9B125712B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailedPropertiesResponseModel.swift; sourceTree = "<group>"; };
 		A9B125732B78F1F9003F82CE /* hostelworld-assestment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "hostelworld-assestment-Info.plist"; path = "hostelworld_assestment/Config/hostelworld-assestment-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A9BF04A12B7BA58F001D78D4 /* EnlargedUrlImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargedUrlImage.swift; sourceTree = "<group>"; };
+		A9BF04A42B7BF867001D78D4 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,7 +304,10 @@
 		A95EF7B62B77E7DB00A61B19 /* hostelworld_assestmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				A95EF7B72B77E7DB00A61B19 /* hostelworld_assestmentTests.swift */,
+				A96ABABF2B7C1FA700800AD2 /* Resources */,
+				A96ABAB62B7C05F400800AD2 /* Extensions */,
+				A96ABAB22B7BFEFE00800AD2 /* Tests */,
+				A96ABAAD2B7BFE3400800AD2 /* Spies */,
 			);
 			path = hostelworld_assestmentTests;
 			sourceTree = "<group>";
@@ -330,6 +365,68 @@
 				A91D3B3F2B7A09C000C61026 /* PropertyDetail */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		A96ABAAD2B7BFE3400800AD2 /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				A96ABAC62B7C297500800AD2 /* Use cases */,
+				A96ABABD2B7C104900800AD2 /* NetworkManagerSpy.swift */,
+			);
+			path = Spies;
+			sourceTree = "<group>";
+		};
+		A96ABAAE2B7BFE4400800AD2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A96ABAB02B7BFE9B00800AD2 /* HomeViewModelTests.swift */,
+				A96ABAC42B7C288300800AD2 /* CityPropertiesDetailViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A96ABAAF2B7BFE4B00800AD2 /* Use cases */ = {
+			isa = PBXGroup;
+			children = (
+				A96ABABB2B7C101000800AD2 /* ShowPropertiesOverviewListTests.swift */,
+			);
+			path = "Use cases";
+			sourceTree = "<group>";
+		};
+		A96ABAB22B7BFEFE00800AD2 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A96ABAAE2B7BFE4400800AD2 /* ViewModels */,
+				A96ABAAF2B7BFE4B00800AD2 /* Use cases */,
+				A9BF04A42B7BF867001D78D4 /* ExtensionsTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A96ABAB62B7C05F400800AD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A96ABAB92B7C0C7800800AD2 /* XCTestCase+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A96ABABF2B7C1FA700800AD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A96ABAC02B7C205200800AD2 /* cityProperties.json */,
+				A96ABAC22B7C20AC00800AD2 /* cityDetailedProperties.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A96ABAC62B7C297500800AD2 /* Use cases */ = {
+			isa = PBXGroup;
+			children = (
+				A96ABAB32B7BFF3600800AD2 /* ShowPropertiesOverviewListSpy.swift */,
+				A96ABAC72B7C29B100800AD2 /* ShowCityDetailedPropertiesSpy.swift */,
+			);
+			path = "Use cases";
 			sourceTree = "<group>";
 		};
 		A97F776F2B79060700B516A6 /* Home */ = {
@@ -453,6 +550,7 @@
 			);
 			dependencies = (
 				A95EF7B52B77E7DB00A61B19 /* PBXTargetDependency */,
+				A9BF04A72B7BF9CA001D78D4 /* PBXTargetDependency */,
 			);
 			name = hostelworld_assestmentTests;
 			productName = hostelworld_assestmentTests;
@@ -471,6 +569,7 @@
 			);
 			dependencies = (
 				A95EF7BF2B77E7DB00A61B19 /* PBXTargetDependency */,
+				A9BF04A92B7BF9D2001D78D4 /* PBXTargetDependency */,
 			);
 			name = hostelworld_assestmentUITests;
 			productName = hostelworld_assestmentUITests;
@@ -492,11 +591,11 @@
 					};
 					A95EF7B22B77E7DB00A61B19 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = A95EF7A22B77E7D900A61B19;
+						TestTargetID = A91311C22B792FD300400F27;
 					};
 					A95EF7BC2B77E7DB00A61B19 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = A95EF7A22B77E7D900A61B19;
+						TestTargetID = A91311C22B792FD300400F27;
 					};
 				};
 			};
@@ -544,6 +643,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96ABAC12B7C205200800AD2 /* cityProperties.json in Resources */,
+				A96ABAC32B7C20AC00800AD2 /* cityDetailedProperties.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,7 +730,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95EF7B82B77E7DB00A61B19 /* hostelworld_assestmentTests.swift in Sources */,
+				A96ABAC52B7C288300800AD2 /* CityPropertiesDetailViewModelTests.swift in Sources */,
+				A96ABAB42B7BFF3600800AD2 /* ShowPropertiesOverviewListSpy.swift in Sources */,
+				A9BF04A52B7BF867001D78D4 /* ExtensionsTests.swift in Sources */,
+				A96ABABA2B7C0C7800800AD2 /* XCTestCase+Additions.swift in Sources */,
+				A96ABABC2B7C101000800AD2 /* ShowPropertiesOverviewListTests.swift in Sources */,
+				A96ABAC82B7C29B100800AD2 /* ShowCityDetailedPropertiesSpy.swift in Sources */,
+				A96ABAB12B7BFE9B00800AD2 /* HomeViewModelTests.swift in Sources */,
+				A96ABABE2B7C104900800AD2 /* NetworkManagerSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +762,16 @@
 			isa = PBXTargetDependency;
 			target = A95EF7A22B77E7D900A61B19 /* hostelworld_assestment_pro */;
 			targetProxy = A95EF7BE2B77E7DB00A61B19 /* PBXContainerItemProxy */;
+		};
+		A9BF04A72B7BF9CA001D78D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91311C22B792FD300400F27 /* hostelworld_assestment_pre */;
+			targetProxy = A9BF04A62B7BF9CA001D78D4 /* PBXContainerItemProxy */;
+		};
+		A9BF04A92B7BF9D2001D78D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91311C22B792FD300400F27 /* hostelworld_assestment_pre */;
+			targetProxy = A9BF04A82B7BF9D2001D78D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -933,14 +1051,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hostelworld_assestment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hostelworld_assestment";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hostelworld_assestment_pre.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hostelworld_assestment_pre";
 			};
 			name = Debug;
 		};
@@ -952,14 +1074,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hostelworld_assestment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hostelworld_assestment";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hostelworld_assestment_pre.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hostelworld_assestment_pre";
 			};
 			name = Release;
 		};
@@ -973,10 +1099,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestmentUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = hostelworld_assestment;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = hostelworld_assestment_pre;
 			};
 			name = Debug;
 		};
@@ -990,10 +1120,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestmentUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = hostelworld_assestment;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = hostelworld_assestment_pre;
 			};
 			name = Release;
 		};

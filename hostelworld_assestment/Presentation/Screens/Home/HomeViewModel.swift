@@ -5,7 +5,6 @@ import Foundation
 @Observable
 final class HomeViewModel {
     
-    
     var properties = [HomeCellData]()
     var showLoading = true
     var errorMsg = ""
@@ -26,6 +25,7 @@ final class HomeViewModel {
                 errorMsg = ""
             } catch {
                 errorMsg = "Error downloading the data."
+                properties.removeAll()
                 LogManager.safeLog(error)
             }
             showLoading = false
