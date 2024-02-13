@@ -7,13 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A95EF7A72B77E7D900A61B19 /* hostelworld_assestmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7A62B77E7D900A61B19 /* hostelworld_assestmentApp.swift */; };
-		A95EF7A92B77E7D900A61B19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7A82B77E7D900A61B19 /* ContentView.swift */; };
+		A912DAF92B793C660022FA9C /* CityPropertiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DAF82B793C660022FA9C /* CityPropertiesService.swift */; };
+		A912DAFA2B7941930022FA9C /* CityPropertiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DAF82B793C660022FA9C /* CityPropertiesService.swift */; };
+		A912DAFF2B7944230022FA9C /* HomeCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DAFE2B7944230022FA9C /* HomeCellData.swift */; };
+		A912DB002B7944230022FA9C /* HomeCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DAFE2B7944230022FA9C /* HomeCellData.swift */; };
+		A912DB032B794AA80022FA9C /* HomeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DB022B794AA80022FA9C /* HomeCellView.swift */; };
+		A912DB042B794AA80022FA9C /* HomeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DB022B794AA80022FA9C /* HomeCellView.swift */; };
+		A912DB062B797BB20022FA9C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DB052B797BB20022FA9C /* Router.swift */; };
+		A912DB072B797BB20022FA9C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DB052B797BB20022FA9C /* Router.swift */; };
+		A91311B82B7907CD00400F27 /* CityPropertiesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311B72B7907CD00400F27 /* CityPropertiesResponseModel.swift */; };
+		A91311BA2B79238F00400F27 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311B92B79238F00400F27 /* HomeViewModel.swift */; };
+		A91311BD2B7924A000400F27 /* ShowPropertiesOverviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311BC2B7924A000400F27 /* ShowPropertiesOverviewList.swift */; };
+		A91311C12B792A3000400F27 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311C02B792A3000400F27 /* String+Additions.swift */; };
+		A91311C42B792FD300400F27 /* CityPropertiesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311B72B7907CD00400F27 /* CityPropertiesResponseModel.swift */; };
+		A91311C52B792FD300400F27 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94230E32B783ECF00F78C80 /* HttpMethod.swift */; };
+		A91311C62B792FD300400F27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7A82B77E7D900A61B19 /* HomeView.swift */; };
+		A91311C72B792FD300400F27 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B1256D2B78E97E003F82CE /* CityModel.swift */; };
+		A91311C82B792FD300400F27 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94230E02B7836B800F78C80 /* NetworkManager.swift */; };
+		A91311CA2B792FD300400F27 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125642B78E3DB003F82CE /* LogManager.swift */; };
+		A91311CB2B792FD300400F27 /* CityDetailedPropertiesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125712B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift */; };
+		A91311CC2B792FD300400F27 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311B92B79238F00400F27 /* HomeViewModel.swift */; };
+		A91311CD2B792FD300400F27 /* Ranges+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125612B78D806003F82CE /* Ranges+Additions.swift */; };
+		A91311CE2B792FD300400F27 /* HostelworldAssestmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7A62B77E7D900A61B19 /* HostelworldAssestmentApp.swift */; };
+		A91311CF2B792FD300400F27 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311C02B792A3000400F27 /* String+Additions.swift */; };
+		A91311D02B792FD300400F27 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94230E52B783EE700F78C80 /* NetworkError.swift */; };
+		A91311D12B792FD300400F27 /* ShowPropertiesOverviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311BC2B7924A000400F27 /* ShowPropertiesOverviewList.swift */; };
+		A91311D22B792FD300400F27 /* ImagePathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B1256F2B78E992003F82CE /* ImagePathModel.swift */; };
+		A91311D52B792FD300400F27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF7AD2B77E7DA00A61B19 /* Preview Assets.xcassets */; };
+		A91311D62B792FD300400F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF7AA2B77E7DA00A61B19 /* Assets.xcassets */; };
+		A91311DF2B79342000400F27 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311DE2B79342000400F27 /* ConfigManager.swift */; };
+		A91311E02B79355600400F27 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91311DE2B79342000400F27 /* ConfigManager.swift */; };
+		A91D3B412B7A09DA00C61026 /* CityPropertiesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B402B7A09DA00C61026 /* CityPropertiesDetailView.swift */; };
+		A91D3B432B7A524100C61026 /* CityPropertiesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B422B7A524100C61026 /* CityPropertiesDetailViewModel.swift */; };
+		A91D3B442B7A524100C61026 /* CityPropertiesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B422B7A524100C61026 /* CityPropertiesDetailViewModel.swift */; };
+		A91D3B452B7A524500C61026 /* CityPropertiesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B402B7A09DA00C61026 /* CityPropertiesDetailView.swift */; };
+		A91D3B472B7A546A00C61026 /* ShowCityDetailedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B462B7A546A00C61026 /* ShowCityDetailedProperties.swift */; };
+		A91D3B482B7A546A00C61026 /* ShowCityDetailedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B462B7A546A00C61026 /* ShowCityDetailedProperties.swift */; };
+		A91D3B4E2B7A9D8000C61026 /* Image+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B4D2B7A9D8000C61026 /* Image+Additions.swift */; };
+		A91D3B4F2B7A9D8000C61026 /* Image+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B4D2B7A9D8000C61026 /* Image+Additions.swift */; };
+		A91D3B532B7AB16300C61026 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B522B7AB16300C61026 /* ViewModifiers.swift */; };
+		A91D3B542B7AB16300C61026 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B522B7AB16300C61026 /* ViewModifiers.swift */; };
+		A91D3B562B7AD80600C61026 /* NetworkLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B552B7AD80600C61026 /* NetworkLoadingView.swift */; };
+		A91D3B572B7AD80600C61026 /* NetworkLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B552B7AD80600C61026 /* NetworkLoadingView.swift */; };
+		A91D3B592B7AD96F00C61026 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B582B7AD96F00C61026 /* ErrorView.swift */; };
+		A91D3B5A2B7AD96F00C61026 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D3B582B7AD96F00C61026 /* ErrorView.swift */; };
+		A94230E12B7836B800F78C80 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94230E02B7836B800F78C80 /* NetworkManager.swift */; };
+		A94230E42B783ECF00F78C80 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94230E32B783ECF00F78C80 /* HttpMethod.swift */; };
+		A94230E62B783EE700F78C80 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94230E52B783EE700F78C80 /* NetworkError.swift */; };
+		A95EF7A72B77E7D900A61B19 /* HostelworldAssestmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7A62B77E7D900A61B19 /* HostelworldAssestmentApp.swift */; };
+		A95EF7A92B77E7D900A61B19 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7A82B77E7D900A61B19 /* HomeView.swift */; };
 		A95EF7AB2B77E7DA00A61B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF7AA2B77E7DA00A61B19 /* Assets.xcassets */; };
 		A95EF7AE2B77E7DA00A61B19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF7AD2B77E7DA00A61B19 /* Preview Assets.xcassets */; };
 		A95EF7B82B77E7DB00A61B19 /* hostelworld_assestmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7B72B77E7DB00A61B19 /* hostelworld_assestmentTests.swift */; };
 		A95EF7C22B77E7DB00A61B19 /* hostelworld_assestmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7C12B77E7DB00A61B19 /* hostelworld_assestmentUITests.swift */; };
 		A95EF7C42B77E7DB00A61B19 /* hostelworld_assestmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF7C32B77E7DB00A61B19 /* hostelworld_assestmentUITestsLaunchTests.swift */; };
+		A9B125622B78D806003F82CE /* Ranges+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125612B78D806003F82CE /* Ranges+Additions.swift */; };
+		A9B125652B78E3DB003F82CE /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125642B78E3DB003F82CE /* LogManager.swift */; };
+		A9B1256E2B78E97E003F82CE /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B1256D2B78E97E003F82CE /* CityModel.swift */; };
+		A9B125702B78E992003F82CE /* ImagePathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B1256F2B78E992003F82CE /* ImagePathModel.swift */; };
+		A9B125722B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B125712B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift */; };
+		A9BF04A22B7BA58F001D78D4 /* EnlargedUrlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BF04A12B7BA58F001D78D4 /* EnlargedUrlImage.swift */; };
+		A9BF04A32B7BA58F001D78D4 /* EnlargedUrlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BF04A12B7BA58F001D78D4 /* EnlargedUrlImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +88,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A95EF7A32B77E7D900A61B19 /* hostelworld_assestment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hostelworld_assestment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A95EF7A62B77E7D900A61B19 /* hostelworld_assestmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hostelworld_assestmentApp.swift; sourceTree = "<group>"; };
-		A95EF7A82B77E7D900A61B19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A912DAF82B793C660022FA9C /* CityPropertiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPropertiesService.swift; sourceTree = "<group>"; };
+		A912DAFE2B7944230022FA9C /* HomeCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellData.swift; sourceTree = "<group>"; };
+		A912DB022B794AA80022FA9C /* HomeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellView.swift; sourceTree = "<group>"; };
+		A912DB052B797BB20022FA9C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A91311B72B7907CD00400F27 /* CityPropertiesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPropertiesResponseModel.swift; sourceTree = "<group>"; };
+		A91311B92B79238F00400F27 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A91311BC2B7924A000400F27 /* ShowPropertiesOverviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPropertiesOverviewList.swift; sourceTree = "<group>"; };
+		A91311C02B792A3000400F27 /* String+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		A91311DA2B792FD300400F27 /* hostelworld_assestment_pre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hostelworld_assestment_pre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91311DB2B792FD300400F27 /* hostelworld-assestment-pre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "hostelworld-assestment-pre-Info.plist"; path = "hostelworld_assestment/Config/hostelworld-assestment-pre-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A91311DE2B79342000400F27 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		A91D3B402B7A09DA00C61026 /* CityPropertiesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPropertiesDetailView.swift; sourceTree = "<group>"; };
+		A91D3B422B7A524100C61026 /* CityPropertiesDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPropertiesDetailViewModel.swift; sourceTree = "<group>"; };
+		A91D3B462B7A546A00C61026 /* ShowCityDetailedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCityDetailedProperties.swift; sourceTree = "<group>"; };
+		A91D3B4D2B7A9D8000C61026 /* Image+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Additions.swift"; sourceTree = "<group>"; };
+		A91D3B522B7AB16300C61026 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		A91D3B552B7AD80600C61026 /* NetworkLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoadingView.swift; sourceTree = "<group>"; };
+		A91D3B582B7AD96F00C61026 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		A94230E02B7836B800F78C80 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A94230E32B783ECF00F78C80 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		A94230E52B783EE700F78C80 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A95EF7A32B77E7D900A61B19 /* hostelworld_assestment_pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hostelworld_assestment_pro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95EF7A62B77E7D900A61B19 /* HostelworldAssestmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelworldAssestmentApp.swift; sourceTree = "<group>"; };
+		A95EF7A82B77E7D900A61B19 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A95EF7AA2B77E7DA00A61B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A95EF7AD2B77E7DA00A61B19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A95EF7B32B77E7DB00A61B19 /* hostelworld_assestmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hostelworld_assestmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +119,23 @@
 		A95EF7BD2B77E7DB00A61B19 /* hostelworld_assestmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hostelworld_assestmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95EF7C12B77E7DB00A61B19 /* hostelworld_assestmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hostelworld_assestmentUITests.swift; sourceTree = "<group>"; };
 		A95EF7C32B77E7DB00A61B19 /* hostelworld_assestmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hostelworld_assestmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9B125612B78D806003F82CE /* Ranges+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ranges+Additions.swift"; sourceTree = "<group>"; };
+		A9B125642B78E3DB003F82CE /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		A9B1256D2B78E97E003F82CE /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		A9B1256F2B78E992003F82CE /* ImagePathModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePathModel.swift; sourceTree = "<group>"; };
+		A9B125712B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailedPropertiesResponseModel.swift; sourceTree = "<group>"; };
+		A9B125732B78F1F9003F82CE /* hostelworld-assestment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "hostelworld-assestment-Info.plist"; path = "hostelworld_assestment/Config/hostelworld-assestment-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A9BF04A12B7BA58F001D78D4 /* EnlargedUrlImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargedUrlImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A91311D32B792FD300400F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A95EF7A02B77E7D900A61B19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +160,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A912DAF72B7939650022FA9C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A9B125732B78F1F9003F82CE /* hostelworld-assestment-Info.plist */,
+				A91311DB2B792FD300400F27 /* hostelworld-assestment-pre-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A912DB012B794A930022FA9C /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A912DAFE2B7944230022FA9C /* HomeCellData.swift */,
+				A912DB022B794AA80022FA9C /* HomeCellView.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		A91311BB2B79242300400F27 /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				A91311BC2B7924A000400F27 /* ShowPropertiesOverviewList.swift */,
+				A91D3B462B7A546A00C61026 /* ShowCityDetailedProperties.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		A91311E12B79365200400F27 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A912DAF82B793C660022FA9C /* CityPropertiesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A91D3B3F2B7A09C000C61026 /* PropertyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A91D3B402B7A09DA00C61026 /* CityPropertiesDetailView.swift */,
+				A91D3B422B7A524100C61026 /* CityPropertiesDetailViewModel.swift */,
+			);
+			path = PropertyDetail;
+			sourceTree = "<group>";
+		};
+		A91D3B502B7AB11A00C61026 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF04A12B7BA58F001D78D4 /* EnlargedUrlImage.swift */,
+				A91D3B522B7AB16300C61026 /* ViewModifiers.swift */,
+				A91D3B552B7AD80600C61026 /* NetworkLoadingView.swift */,
+				A91D3B582B7AD96F00C61026 /* ErrorView.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		A94230E22B783EB900F78C80 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A91311E12B79365200400F27 /* Services */,
+				A94230E02B7836B800F78C80 /* NetworkManager.swift */,
+				A94230E32B783ECF00F78C80 /* HttpMethod.swift */,
+				A94230E52B783EE700F78C80 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		A95EF79A2B77E7D900A61B19 = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +239,10 @@
 		A95EF7A42B77E7D900A61B19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A95EF7A32B77E7D900A61B19 /* hostelworld_assestment.app */,
+				A95EF7A32B77E7D900A61B19 /* hostelworld_assestment_pro.app */,
 				A95EF7B32B77E7DB00A61B19 /* hostelworld_assestmentTests.xctest */,
 				A95EF7BD2B77E7DB00A61B19 /* hostelworld_assestmentUITests.xctest */,
+				A91311DA2B792FD300400F27 /* hostelworld_assestment_pre.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +250,11 @@
 		A95EF7A52B77E7D900A61B19 /* hostelworld_assestment */ = {
 			isa = PBXGroup;
 			children = (
-				A95EF7A62B77E7D900A61B19 /* hostelworld_assestmentApp.swift */,
-				A95EF7A82B77E7D900A61B19 /* ContentView.swift */,
+				A912DAF72B7939650022FA9C /* Config */,
+				A95EF7D32B77EBA300A61B19 /* Core */,
+				A95EF7D22B77EB9B00A61B19 /* Presentation */,
+				A95EF7D12B77EB9300A61B19 /* Data */,
+				A95EF7D02B77EB6A00A61B19 /* Domain */,
 				A95EF7AA2B77E7DA00A61B19 /* Assets.xcassets */,
 				A95EF7AC2B77E7DA00A61B19 /* Preview Content */,
 			);
@@ -127,12 +286,147 @@
 			path = hostelworld_assestmentUITests;
 			sourceTree = "<group>";
 		};
+		A95EF7D02B77EB6A00A61B19 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A91311BB2B79242300400F27 /* Use Cases */,
+				A9B125662B78E7B7003F82CE /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A95EF7D12B77EB9300A61B19 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A94230E22B783EB900F78C80 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A95EF7D22B77EB9B00A61B19 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A95EF7A62B77E7D900A61B19 /* HostelworldAssestmentApp.swift */,
+				A912DB052B797BB20022FA9C /* Router.swift */,
+				A95EF7D42B77EC3D00A61B19 /* Screens */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A95EF7D32B77EBA300A61B19 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A9B125632B78E3CA003F82CE /* Managers */,
+				A9B125602B78D7D1003F82CE /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A95EF7D42B77EC3D00A61B19 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A91D3B502B7AB11A00C61026 /* shared */,
+				A97F776F2B79060700B516A6 /* Home */,
+				A91D3B3F2B7A09C000C61026 /* PropertyDetail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A97F776F2B79060700B516A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A912DB012B794A930022FA9C /* cell */,
+				A95EF7A82B77E7D900A61B19 /* HomeView.swift */,
+				A91311B92B79238F00400F27 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A97F77702B79069D00B516A6 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				A9B1256A2B78E8AD003F82CE /* City Properties */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		A9B125602B78D7D1003F82CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9B125612B78D806003F82CE /* Ranges+Additions.swift */,
+				A91311C02B792A3000400F27 /* String+Additions.swift */,
+				A91D3B4D2B7A9D8000C61026 /* Image+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9B125632B78E3CA003F82CE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A9B125642B78E3DB003F82CE /* LogManager.swift */,
+				A91311DE2B79342000400F27 /* ConfigManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A9B125662B78E7B7003F82CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A97F77702B79069D00B516A6 /* Responses */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9B1256A2B78E8AD003F82CE /* City Properties */ = {
+			isa = PBXGroup;
+			children = (
+				A9B1256B2B78E963003F82CE /* List */,
+				A9B1256C2B78E96D003F82CE /* Detail */,
+				A9B1256D2B78E97E003F82CE /* CityModel.swift */,
+				A9B1256F2B78E992003F82CE /* ImagePathModel.swift */,
+			);
+			path = "City Properties";
+			sourceTree = "<group>";
+		};
+		A9B1256B2B78E963003F82CE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A91311B72B7907CD00400F27 /* CityPropertiesResponseModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A9B1256C2B78E96D003F82CE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A9B125712B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A95EF7A22B77E7D900A61B19 /* hostelworld_assestment */ = {
+		A91311C22B792FD300400F27 /* hostelworld_assestment_pre */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A95EF7C72B77E7DB00A61B19 /* Build configuration list for PBXNativeTarget "hostelworld_assestment" */;
+			buildConfigurationList = A91311D72B792FD300400F27 /* Build configuration list for PBXNativeTarget "hostelworld_assestment_pre" */;
+			buildPhases = (
+				A91311C32B792FD300400F27 /* Sources */,
+				A91311D32B792FD300400F27 /* Frameworks */,
+				A91311D42B792FD300400F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hostelworld_assestment_pre;
+			productName = hostelworld_assestment;
+			productReference = A91311DA2B792FD300400F27 /* hostelworld_assestment_pre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A95EF7A22B77E7D900A61B19 /* hostelworld_assestment_pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95EF7C72B77E7DB00A61B19 /* Build configuration list for PBXNativeTarget "hostelworld_assestment_pro" */;
 			buildPhases = (
 				A95EF79F2B77E7D900A61B19 /* Sources */,
 				A95EF7A02B77E7D900A61B19 /* Frameworks */,
@@ -142,9 +436,9 @@
 			);
 			dependencies = (
 			);
-			name = hostelworld_assestment;
+			name = hostelworld_assestment_pro;
 			productName = hostelworld_assestment;
-			productReference = A95EF7A32B77E7D900A61B19 /* hostelworld_assestment.app */;
+			productReference = A95EF7A32B77E7D900A61B19 /* hostelworld_assestment_pro.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A95EF7B22B77E7DB00A61B19 /* hostelworld_assestmentTests */ = {
@@ -219,7 +513,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A95EF7A22B77E7D900A61B19 /* hostelworld_assestment */,
+				A95EF7A22B77E7D900A61B19 /* hostelworld_assestment_pro */,
+				A91311C22B792FD300400F27 /* hostelworld_assestment_pre */,
 				A95EF7B22B77E7DB00A61B19 /* hostelworld_assestmentTests */,
 				A95EF7BC2B77E7DB00A61B19 /* hostelworld_assestmentUITests */,
 			);
@@ -227,6 +522,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A91311D42B792FD300400F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91311D52B792FD300400F27 /* Preview Assets.xcassets in Resources */,
+				A91311D62B792FD300400F27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A95EF7A12B77E7D900A61B19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,12 +557,71 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A91311C32B792FD300400F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91311C42B792FD300400F27 /* CityPropertiesResponseModel.swift in Sources */,
+				A91311C52B792FD300400F27 /* HttpMethod.swift in Sources */,
+				A912DB002B7944230022FA9C /* HomeCellData.swift in Sources */,
+				A91D3B4F2B7A9D8000C61026 /* Image+Additions.swift in Sources */,
+				A91D3B482B7A546A00C61026 /* ShowCityDetailedProperties.swift in Sources */,
+				A912DB042B794AA80022FA9C /* HomeCellView.swift in Sources */,
+				A91D3B572B7AD80600C61026 /* NetworkLoadingView.swift in Sources */,
+				A91D3B5A2B7AD96F00C61026 /* ErrorView.swift in Sources */,
+				A91311C62B792FD300400F27 /* HomeView.swift in Sources */,
+				A912DAFA2B7941930022FA9C /* CityPropertiesService.swift in Sources */,
+				A91311C72B792FD300400F27 /* CityModel.swift in Sources */,
+				A91311C82B792FD300400F27 /* NetworkManager.swift in Sources */,
+				A91D3B542B7AB16300C61026 /* ViewModifiers.swift in Sources */,
+				A91311CA2B792FD300400F27 /* LogManager.swift in Sources */,
+				A91311CB2B792FD300400F27 /* CityDetailedPropertiesResponseModel.swift in Sources */,
+				A91D3B452B7A524500C61026 /* CityPropertiesDetailView.swift in Sources */,
+				A91311CC2B792FD300400F27 /* HomeViewModel.swift in Sources */,
+				A912DB072B797BB20022FA9C /* Router.swift in Sources */,
+				A91311CD2B792FD300400F27 /* Ranges+Additions.swift in Sources */,
+				A91311CE2B792FD300400F27 /* HostelworldAssestmentApp.swift in Sources */,
+				A91311CF2B792FD300400F27 /* String+Additions.swift in Sources */,
+				A91311D02B792FD300400F27 /* NetworkError.swift in Sources */,
+				A91311D12B792FD300400F27 /* ShowPropertiesOverviewList.swift in Sources */,
+				A9BF04A32B7BA58F001D78D4 /* EnlargedUrlImage.swift in Sources */,
+				A91311D22B792FD300400F27 /* ImagePathModel.swift in Sources */,
+				A91311E02B79355600400F27 /* ConfigManager.swift in Sources */,
+				A91D3B442B7A524100C61026 /* CityPropertiesDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A95EF79F2B77E7D900A61B19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95EF7A92B77E7D900A61B19 /* ContentView.swift in Sources */,
-				A95EF7A72B77E7D900A61B19 /* hostelworld_assestmentApp.swift in Sources */,
+				A91311B82B7907CD00400F27 /* CityPropertiesResponseModel.swift in Sources */,
+				A94230E42B783ECF00F78C80 /* HttpMethod.swift in Sources */,
+				A912DAFF2B7944230022FA9C /* HomeCellData.swift in Sources */,
+				A91D3B4E2B7A9D8000C61026 /* Image+Additions.swift in Sources */,
+				A91D3B472B7A546A00C61026 /* ShowCityDetailedProperties.swift in Sources */,
+				A91D3B432B7A524100C61026 /* CityPropertiesDetailViewModel.swift in Sources */,
+				A91D3B562B7AD80600C61026 /* NetworkLoadingView.swift in Sources */,
+				A91D3B592B7AD96F00C61026 /* ErrorView.swift in Sources */,
+				A912DB032B794AA80022FA9C /* HomeCellView.swift in Sources */,
+				A95EF7A92B77E7D900A61B19 /* HomeView.swift in Sources */,
+				A9B1256E2B78E97E003F82CE /* CityModel.swift in Sources */,
+				A94230E12B7836B800F78C80 /* NetworkManager.swift in Sources */,
+				A91D3B532B7AB16300C61026 /* ViewModifiers.swift in Sources */,
+				A9B125652B78E3DB003F82CE /* LogManager.swift in Sources */,
+				A9B125722B78ED60003F82CE /* CityDetailedPropertiesResponseModel.swift in Sources */,
+				A91311BA2B79238F00400F27 /* HomeViewModel.swift in Sources */,
+				A912DAF92B793C660022FA9C /* CityPropertiesService.swift in Sources */,
+				A91D3B412B7A09DA00C61026 /* CityPropertiesDetailView.swift in Sources */,
+				A912DB062B797BB20022FA9C /* Router.swift in Sources */,
+				A9B125622B78D806003F82CE /* Ranges+Additions.swift in Sources */,
+				A95EF7A72B77E7D900A61B19 /* HostelworldAssestmentApp.swift in Sources */,
+				A91311C12B792A3000400F27 /* String+Additions.swift in Sources */,
+				A94230E62B783EE700F78C80 /* NetworkError.swift in Sources */,
+				A9BF04A22B7BA58F001D78D4 /* EnlargedUrlImage.swift in Sources */,
+				A91311BD2B7924A000400F27 /* ShowPropertiesOverviewList.swift in Sources */,
+				A9B125702B78E992003F82CE /* ImagePathModel.swift in Sources */,
+				A91311DF2B79342000400F27 /* ConfigManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,17 +647,91 @@
 /* Begin PBXTargetDependency section */
 		A95EF7B52B77E7DB00A61B19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A95EF7A22B77E7D900A61B19 /* hostelworld_assestment */;
+			target = A95EF7A22B77E7D900A61B19 /* hostelworld_assestment_pro */;
 			targetProxy = A95EF7B42B77E7DB00A61B19 /* PBXContainerItemProxy */;
 		};
 		A95EF7BF2B77E7DB00A61B19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A95EF7A22B77E7D900A61B19 /* hostelworld_assestment */;
+			target = A95EF7A22B77E7D900A61B19 /* hostelworld_assestment_pro */;
 			targetProxy = A95EF7BE2B77E7DB00A61B19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A91311D82B792FD300400F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BACKEND_BASE_URL = "http://private-anon-e4695fc136-practical3.apiary-mock.com";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hostelworld_assestment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hostelworld_assestment/Config/hostelworld-assestment-pre-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hosterworld PRE";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestment-pre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A91311D92B792FD300400F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BACKEND_BASE_URL = "http://private-anon-e4695fc136-practical3.apiary-mock.com";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hostelworld_assestment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hostelworld_assestment/Config/hostelworld-assestment-pre-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hosterworld PRE";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestment-pre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		A95EF7C52B77E7DB00A61B19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -347,7 +784,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +841,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -419,16 +856,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BACKEND_BASE_URL = "http://practical2.apiblueprint.org";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hostelworld_assestment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hostelworld_assestment/Config/hostelworld-assestment-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hosterworld;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +878,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,16 +893,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BACKEND_BASE_URL = "http://practical2.apiblueprint.org";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hostelworld_assestment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hostelworld_assestment/Config/hostelworld-assestment-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hosterworld;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +915,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Antonio-Jesus.hostelworld-assestment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -545,6 +1000,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A91311D72B792FD300400F27 /* Build configuration list for PBXNativeTarget "hostelworld_assestment_pre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91311D82B792FD300400F27 /* Debug */,
+				A91311D92B792FD300400F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A95EF79E2B77E7D900A61B19 /* Build configuration list for PBXProject "hostelworld_assestment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -554,7 +1018,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A95EF7C72B77E7DB00A61B19 /* Build configuration list for PBXNativeTarget "hostelworld_assestment" */ = {
+		A95EF7C72B77E7DB00A61B19 /* Build configuration list for PBXNativeTarget "hostelworld_assestment_pro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A95EF7C82B77E7DB00A61B19 /* Debug */,

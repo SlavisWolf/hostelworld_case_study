@@ -1,9 +1,4 @@
-//
-//  hostelworld_assestmentUITests.swift
-//  hostelworld_assestmentUITests
-//
-//  Created by Antonio Jesús on 10/2/24.
-//
+
 
 import XCTest
 
