@@ -5,11 +5,12 @@ import SwiftUI
 
 struct CityPropertiesDetailView: View {
     
-    @Environment(Router.self) private var router
-    @Bindable private var viewModel: CityPropertiesDetailViewModel
+    
+    @EnvironmentObject private var router: Router
+    @StateObject private var viewModel: CityPropertiesDetailViewModel
     
     init(id: String) {
-        viewModel = CityPropertiesDetailViewModel(selectedPropertyId: id)
+        _viewModel = StateObject(wrappedValue: CityPropertiesDetailViewModel(selectedPropertyId: id) )
     }
     
     var body: some View {
@@ -201,7 +202,7 @@ struct CityPropertiesDetailView: View {
 #Preview {
     NavigationStack {
         CityPropertiesDetailView(id: "40919")
-            .environment(Router() )
+            .environmentObject(Router() )
     }
     
 }

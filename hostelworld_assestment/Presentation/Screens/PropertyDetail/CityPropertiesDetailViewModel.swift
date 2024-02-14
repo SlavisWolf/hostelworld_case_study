@@ -2,12 +2,12 @@
 
 import Foundation
 
-@Observable
-final class CityPropertiesDetailViewModel {
+
+final class CityPropertiesDetailViewModel: ObservableObject {
 
     var viewData: CityPropertiesDetailViewData?
     var errorMsg = ""
-    var showCheckInAlert = false
+    @Published var showCheckInAlert = false
     
     private let selectedPropertyId: String
     private let showCityDetailedPropertiesUseCase: ShowCityDetailedPropertiesProtocol
@@ -29,6 +29,7 @@ final class CityPropertiesDetailViewModel {
                 errorMsg = "It's been impossible downloading the info."
                 viewData = nil
             }
+            objectWillChange.send()
         }
     }
     

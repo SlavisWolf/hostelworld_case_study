@@ -2,8 +2,7 @@
 
 import Foundation
 
-@Observable
-final class HomeViewModel {
+final class HomeViewModel: ObservableObject {
     
     var properties = [HomeCellData]()
     var showLoading = true
@@ -29,6 +28,7 @@ final class HomeViewModel {
                 LogManager.safeLog(error)
             }
             showLoading = false
+            objectWillChange.send()
         }
     }
     

@@ -4,15 +4,14 @@
 import Foundation
 import SwiftUI
 
-@Observable
-final class Router {
+final class Router: ObservableObject {
     
     public enum Destination: Codable, Hashable {
         case propertiesDetail(id: String)
         case imageEnlarged(url: URL)
     }
     
-    var navPath = NavigationPath()
+   @Published var navPath = NavigationPath()
         
     func navigate(to destination: Destination) {
         navPath.append(destination)

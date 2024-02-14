@@ -7,8 +7,8 @@ import SwiftUI
 struct HomeView: View {
     
     
-    @Bindable var router = Router()
-    private let viewModel = HomeViewModel()
+    @ObservedObject var router = Router()
+    @StateObject private var viewModel = HomeViewModel()
     
     var body: some View {
         
@@ -38,7 +38,7 @@ struct HomeView: View {
                 }
             }
         }
-        .environment(router)
+        .environmentObject(router)
     }
     
     @ViewBuilder

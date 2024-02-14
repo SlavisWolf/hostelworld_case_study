@@ -15,9 +15,9 @@ struct EnlargedUrlImage: View {
                     .scaledToFit()
                     .scaleEffect(zoom)
                     .gesture(
-                        MagnifyGesture()
+                        MagnificationGesture()
                             .updating($zoom) { value, gestureState, transaction in
-                                gestureState = value.magnification
+                                gestureState = value.magnitude
                             }
                     )
             } placeholder: {
