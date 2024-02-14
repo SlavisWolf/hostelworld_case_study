@@ -2,7 +2,6 @@
 
 
 @testable import hostelworld_assestment_pre
-
 import XCTest
 
 final class ExtensionsTests: XCTestCase {

@@ -12,7 +12,7 @@ final class NetworkManager: NetworkManagerProtocol {
     private let decoder: JSONDecoder
     private let baseUrl: String
     
-    init(session: URLSession = URLSession(configuration: .default),
+    init(session: URLSession = URLSession.shared,
                  decoder: JSONDecoder = JSONDecoder(),
                  baseUrl: String = ConfigManager.retrieveValue(key: .BaseUrl) ?? "") {
         self.session = session
@@ -27,7 +27,7 @@ final class NetworkManager: NetworkManagerProtocol {
         var request = URLRequest(url: url)
         request.httpMethod = method.rawValue
 
-        let (data, response) = try await URLSession.shared.data(for: request)
+        let (data, response) = try await session.data(for: request)
         guard let httpResponse = response as? HTTPURLResponse else { throw NetworkError.noResponse }
         
         try validateHttpCode(httpResponse.statusCode)

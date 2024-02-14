@@ -9,10 +9,10 @@ struct CityModel: Decodable {
     let idCountry: String
     
     enum CodingKeys: String, CodingKey {
-            case cityId = "id"
-            case name
-            case country
-            case idCountry
-        }
+        case cityId = "id"
+        case name
+        case country
+        case idCountry
+    }
 }
 

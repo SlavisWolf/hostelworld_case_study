@@ -25,25 +25,25 @@ struct CityDetailedPropertiesResponseModel: Decodable {
     let checkIn: CheckInModel
     
     enum CodingKeys: String, CodingKey {
-            case propertyId = "id"
-            case name
-            case rating
-            case bestFor
-            case description
-            case latitude
-            case longitude
-            case address1
-            case address2
-            case directions
-            case city
-            case paymentMethods
-            case policies
-            case totalRatings
-            case images
-            case type
-            case depositPercentage
-            case associations
-            case checkIn
+        case propertyId = "id"
+        case name
+        case rating
+        case bestFor
+        case description
+        case latitude
+        case longitude
+        case address1
+        case address2
+        case directions
+        case city
+        case paymentMethods
+        case policies
+        case totalRatings
+        case images
+        case type
+        case depositPercentage
+        case associations
+        case checkIn
     }
 }
 
