@@ -4,8 +4,8 @@ import Foundation
 
 final class HomeViewModel: ObservableObject {
     
+    @Published var showLoading = true
     var properties = [HomeCellData]()
-    var showLoading = true
     var errorMsg = ""
     
     private let showPropertiesUseCase: ShowPropertiesOverviewListProtocol
@@ -28,7 +28,6 @@ final class HomeViewModel: ObservableObject {
                 LogManager.safeLog(error)
             }
             showLoading = false
-            objectWillChange.send()
         }
     }
     

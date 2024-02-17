@@ -5,9 +5,9 @@ import Foundation
 
 final class CityPropertiesDetailViewModel: ObservableObject {
 
-    var viewData: CityPropertiesDetailViewData?
-    var errorMsg = ""
+    @Published var viewData: CityPropertiesDetailViewData?
     @Published var showCheckInAlert = false
+    @Published var errorMsg = ""
     
     private let selectedPropertyId: String
     private let showCityDetailedPropertiesUseCase: ShowCityDetailedPropertiesProtocol
@@ -19,17 +19,18 @@ final class CityPropertiesDetailViewModel: ObservableObject {
     }
     
     func loadView() {
+        
+        errorMsg = ""
+        viewData = nil
+        
         Task { @MainActor in
             do {
                 let response = try await showCityDetailedPropertiesUseCase.execute(id: selectedPropertyId)
                 parseData(response)
-                errorMsg = ""
             } catch {
                 LogManager.safeLog()
                 errorMsg = "It's been impossible downloading the info."
-                viewData = nil
             }
-            objectWillChange.send()
         }
     }
     
